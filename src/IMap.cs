@@ -11,10 +11,10 @@ namespace Eurodiffusion_from_abdulllah111
         public List<Country> Countries { get; set; }
 
         // Добавить новую страну
-        void AddCountry(Country country);
+        public void AddCountry(Country country);
 
         // Отрисовка карты
-        void PrintMap();
+        public void PrintMap();
 
         // Запуск симуляции модели
         public void SimulateDaysToCompletion();
